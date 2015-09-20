@@ -44,14 +44,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvertMassive.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InvertMassive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/brothers/app/Golovach/core/proc/loop/InvertMassive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25538972">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvertMassiveTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/brothers/app/Golovach/core/proc/loop/InvertMassiveTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7446103">
+              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +73,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -84,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brothers/app/Golovach/core/proc/loop/Invert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brothers/app/Golovach/core/proc/loop/InvertLoop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brothers/app/Golovach/core/proc/loop/InvertMassive.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/brothers/app/Golovach/core/proc/loop/InvertMassiveTest.java" />
       </list>
     </option>
   </component>
@@ -197,6 +209,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="loop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bubbleSort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -281,10 +327,11 @@
       <recent name="com.brothers.app.Golovach.core.proc.loop.bubbleSort" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.brothers.app.Golovach.core.proc.loop" />
       <recent name="com.brothers.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.sortBubble2DArrayTest.BubbleSortTest">
+  <component name="RunManager" selected="JUnit.InvertMassiveTest.InvertMassiveTest">
     <configuration default="false" name="sortBubble2DArrayTest.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -299,52 +346,6 @@
       <option name="MAIN_CLASS_NAME" value="com.brothers.app.Golovach.core.proc.loop.bubbleSort.sortBubble2DArrayTest" />
       <option name="METHOD_NAME" value="testBubbleSort" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="sortBubble2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.brothers.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.brothers.app.Golovach.core.proc.loop.bubbleSort.sortBubble2DArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="my-app" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="sortBubble2DArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.brothers.app.Golovach.core.proc.loop.bubbleSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="my-app" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.brothers.app.Golovach.core.proc.loop.bubbleSort" />
-      <option name="MAIN_CLASS_NAME" value="com.brothers.app.Golovach.core.proc.loop.bubbleSort.sortBubble2DArrayTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -396,6 +397,52 @@
       <option name="PACKAGE_NAME" value="com.brothers.app.Golovach.core.proc.loop.bubbleSort" />
       <option name="MAIN_CLASS_NAME" value="com.brothers.app.Golovach.core.proc.loop.bubbleSort.sortBubble2DArrayTest" />
       <option name="METHOD_NAME" value="BubbleSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InvertMassive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.brothers.app.Golovach.core.proc.loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.brothers.app.Golovach.core.proc.loop.InvertMassive" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my-app" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InvertMassiveTest.InvertMassiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.brothers.app.Golovach.core.proc.loop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="my-app" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.brothers.app.Golovach.core.proc.loop" />
+      <option name="MAIN_CLASS_NAME" value="com.brothers.app.Golovach.core.proc.loop.InvertMassiveTest" />
+      <option name="METHOD_NAME" value="InvertMassiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -558,18 +605,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.testBubbleSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.sortBubble2DArray" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortRandomTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortRandomTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InvertMassive" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InvertMassiveTest.InvertMassiveTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortRandomTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.testBubbleSort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.sortBubble2DArray" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InvertMassiveTest.InvertMassiveTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InvertMassive" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.BubbleSortRandomTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.sortBubble2DArrayTest.testBubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -627,7 +674,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -677,6 +726,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/brothers/app/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/brothers/app/Golovach/core/proc/loop/bubbleSort/sortBubble2DArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -689,11 +746,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brothers/app/Golovach/core/proc/loop/InvertMassive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25538972">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/brothers/app/Golovach/core/proc/loop/InvertMassiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7446103">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
