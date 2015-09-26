@@ -2,6 +2,7 @@ package com.brothers.app.Golovach.core.proc.loop.bubbleSort;
 
 /**
  * Created by Admin on 20.09.2015.
+ * Реализуется сортировка пузырьком
  */
 
 import java.util.Random;

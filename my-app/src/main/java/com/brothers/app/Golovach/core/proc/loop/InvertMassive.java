@@ -6,6 +6,7 @@ import java.util.Random;
 
 /**
  * Created by Admin on 20.09.2015.
+ * Меняет элементы массива местами
  */
 public class InvertMassive {
     public static void main(String[] args) {
@@ -15,8 +16,9 @@ public class InvertMassive {
 
         for (int column = 0; column < array.length; column++) {
             array[column] = random.nextInt(100);
-            System.out.printf("%4d", array[column]);
         }
+
+        System.out.println(Arrays.toString(array));
         System.out.println();
 
         invertMassive(array);
