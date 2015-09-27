@@ -25,7 +25,7 @@ public class insertionSort {
         System.out.println(Arrays.toString(array));
     }
 
-    private static void insertion(int[] array) {
+    public static void insertion(int[] array) {
         int newElem, tmp;
 
         for (int barrier = 1; barrier < array.length; barrier++) {
@@ -41,8 +41,6 @@ public class insertionSort {
                 System.arraycopy(array, tmp, array, tmp + 1, barrier - tmp);
                 array[tmp] = newElem;
             }
-
-            System.out.println(Arrays.toString(array));
         }
     }
 }
